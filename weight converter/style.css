@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:beige;
+}
+
+.container{
+    background-color: cadetblue;
+    
+    border: 2px solid green;
+    text-align: center;
+    width: 400px;
+}
+
+.header{
+    background-color: blue;
+    color: white;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+#lbl{
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#in{
+    width: 95%;
+    
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.output p{
+    font-size: 25px;
+    color: red;
+}

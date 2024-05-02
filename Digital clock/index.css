@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: bisque;
+}
+
+.container{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    width: 250px;
+    background-color: white;
+    
+
+}
+
+.header{
+    background-color: rgb(59, 59, 235);
+    border-radius: 5px;
+
+}
+
+.header h2{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.timer{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: white;
+}

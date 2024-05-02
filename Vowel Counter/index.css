@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container{
+    border: 1px solid black;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0,0,0.03);
+
+}
+
+.herder{
+    background-color: bisque;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.herder h1{
+    padding: 10px;
+}
+
+.btn{
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+.output{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#result{
+    font-size: 20px;
+}
+
+#text{
+    width: 300px;
+    height: 250px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(145, 141, 141);
+    height: 50px;
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 5px;
+    z-index: 1;
+    
+}
+
+#logo{
+    padding-left: 30px;
+    
+    
+    
+}
+
+.nevber a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 18px;
+    justify-content: center;
+  
+}
+
+.img-container{
+    position: relative;
+}
+
+.img-container img{
+    width: 100%;
+    margin-top: 50px;
+    
+
+}
+
+.img-container  h1{
+    position: absolute;
+    top:40%;
+    left: 40%;
+    
+    
+}
+
+.content-container{
+    text-align: justify;
+}
